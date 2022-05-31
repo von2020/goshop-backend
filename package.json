@@ -1,0 +1,26 @@
+{
+  "name": "goshop_backend",
+  "version": "1.0.0",
+  "description": "ecommerce solution",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "yvonne",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.29.1",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "express-fileupload": "^1.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.2.10",
+    "multer": "^1.4.4",
+    "nexmo": "^2.9.1",
+    "nodemon": "^2.0.15",
+    "swagger-jsdoc": "^6.2.1",
+    "swagger-ui-express": "^4.3.0",
+    "twilio": "^3.76.1"
+  }
+}
